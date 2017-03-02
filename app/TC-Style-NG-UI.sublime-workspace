@@ -1,0 +1,462 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"brand-",
+				"brand-primary"
+			],
+			[
+				"brand",
+				"brand-primary"
+			],
+			[
+				"s",
+				"switch"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"backgroud",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bower_components/bootstrap-sass/override_bootstrap_variables.scss",
+			"settings":
+			{
+				"buffer_size": 32046,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/tpagan/Documents/Apps/TCStylesApp/config.rb",
+			"settings":
+			{
+				"buffer_size": 933,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/fonts/bootstrap",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/js"
+	],
+	"file_history":
+	[
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/app.js",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/bower.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/angular-bootstrap/bower.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/custom_styles.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/app.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/.bower.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/angular-bootstrap/.bower.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/bower.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/index.html",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/override_bootstrap_variables.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/_override_bs_variables.scss",
+		"/C/xampp/htdocs/travelclick.github.io/css/sass/_colors.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/colors.scss",
+		"/C/xampp/htdocs/travelclick.github.io/css/sass/_custom.scss",
+		"/C/xampp/htdocs/travelclick.github.io/css/sass/_overrideVariables.scss",
+		"/C/xampp/htdocs/travelclick.github.io/css/sass/app.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/package.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/karma.conf.js",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/custom-sass/app.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/custom-sass/_overrideVariables.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/view1/view1.html",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/js/angular-bootstrap/.bower.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/eyeglass-exports.js",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/README.md",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/css/app.css",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/view1/view1.js",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/app.css",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/components/accordion/accordion.html",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/components/accordion/accordion.js",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/forms-basic.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/forms-checkboxes-radios.html",
+		"/C/xampp/htdocs/travelclick.github.io/index.php",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/colors.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/buttons.html",
+		"/C/GlobalCollectDemo/views/index-responsive.marko.js",
+		"/C/GlobalCollectDemo/views/index.marko.js",
+		"/C/GlobalCollectDemo/views/test.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/thumbnails.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/dropdown.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/tabs.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/switch.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/forms-disabled.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/button-groups.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/panel-cards.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/navigation.html",
+		"/C/xampp/htdocs/travelclick.github.io/functions.php",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/type-headings.html",
+		"/C/Users/tpagan/Dropbox/Resources/bootstrap-toggle-master/css/bootstrap-toggle.css",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/type-headings.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/alerts.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/images.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/list-group.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/type-text-elements.html",
+		"/C/xampp/htdocs/travelclick.github.io/js/sg-scripts.js",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/labels.html",
+		"/C/xampp/htdocs/travelclick.github.io/css/sg-style.css",
+		"/C/xampp/htdocs/travelclick.github.io/README.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/images.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/media.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/navs.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/carousel.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/accordion.html",
+		"/C/xampp/htdocs/travelclick.github.io/css/stylesheets/metro-icons.min.css",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/tooltip.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/buttons.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/type-content.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/type-blockquote.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/type-address.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/time.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/media.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/icons.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/type-text-elements.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/forms-disabled.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/forms-checkboxes-radios.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/forms-basic.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/breadcrumbs.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/UI Components/breadcrumbs.md",
+		"/C/xampp/htdocs/travelclick.github.io/css/stylesheets/app.css",
+		"/C/xampp/htdocs/travelclick.github.io/markup/UI Components/progress-bars.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/popover.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/UI Components/alerts.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/type-content.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/tables.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/tables.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/grid-system.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/type-lists.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/type-lists.md",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/forms-validation.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/forms-validation.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/colors.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/list-ordered.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/grid-system.md",
+		"/C/xampp/htdocs/travelclick.github.io/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_type.scss",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/typography.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/typography.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/Styles/Grid System/grid.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/Styles/Grid System/grid.html",
+		"/C/xampp/htdocs/travelclick.github.io/doc/base/colors.md",
+		"/C/xampp/htdocs/travelclick.github.io/markup/base/blockquote.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/base/form-fields-default.html",
+		"/C/xampp/htdocs/travelclick.github.io/css/sass/_customVariables.scss",
+		"/C/xampp/htdocs/travelclick.github.io/js/main.js",
+		"/C/xampp/htdocs/travelclick.github.io/markup/base/address.html",
+		"/C/xampp/htdocs/travelclick.github.io/markup/base/buttons.html",
+		"/C/Users/tpagan/Documents/accordion.html",
+		"/C/xampp/htdocs/travelclick.github.io/css/config.rb",
+		"/C/xampp/htdocs/travelclick.github.io/style-guide/index.php",
+		"/C/xampp/htdocs/travelclick.github.io/style-guide/bower_components/bootstrap-sass/assets/app.scss",
+		"/C/xampp/htdocs/travelclick.github.io/style-guide/bower_components/bootstrap-sass/assets/stylesheets/bootstrap/styles.scss",
+		"/C/xampp/htdocs/travelclick.github.io/style-guide/config.rb",
+		"/C/xampp/htdocs/travelclick.github.io/style-guide/bower_components/sass/custom.scss",
+		"/C/xampp/htdocs/travelclick.github.io/style-guide/bower_components/sass/_customVariables.scss",
+		"/C/xampp/htdocs/travelclick.github.io/style-guide/bower_components/sass/app.scss",
+		"/C/Users/tpagan/Documents/GitHub/travelclick.github.io/README.md",
+		"/C/Users/tpagan/Documents/GitHub/travelclick.github.io/index.html",
+		"/C/Users/tpagan/Documents/GitHub/travelclick.github.io/index.php",
+		"/C/Users/tpagan/Documents/Sites/TC-Style/app/app.js",
+		"/C/Users/tpagan/Documents/Sites/TC-Style/app/app.css",
+		"/C/Users/tpagan/Documents/Sites/TC-StyleGuide/css/theme.css",
+		"/C/Users/tpagan/Documents/Sites/TC-StyleGuide/index.php",
+		"/C/Users/tpagan/Documents/Sites/TC-Style/app/index.html",
+		"/C/Users/tpagan/Documents/Sites/TC-Style/app/view1/view1.js",
+		"/C/Users/tpagan/Documents/Sites/TC-Style/app/accordion/accordion.js",
+		"/C/Users/tpagan/Documents/Sites/TC-Style/app/accordion/accordion.html",
+		"/C/Users/tpagan/Documents/Sites/TC-Style/app/view1/view1.html",
+		"/C/Users/tpagan/Documents/Sites/TC-Ng-UI-Bootstrap/node_modules/angular-ui-bootstrap/bootstrap-gh-pages/index.html",
+		"/C/Users/tpagan/Documents/Axure/HTML/Return-to-Book/start.html",
+		"/C/Users/tpagan/Documents/Sites/TC-Ng-UI-Bootstrap/node_modules/angular-ui-bootstrap/hello.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<current file>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"focus",
+			"checkmark",
+			"expand-more",
+			"./././fonts/",
+			"././fonts/",
+			"../../../fonts/",
+			"../../fonts/",
+			"../fonts/",
+			"gray-darkt",
+			"ligh",
+			"gray",
+			"btn",
+			"green",
+			"indigo",
+			"yellow",
+			"gray",
+			"orange",
+			"bluegray",
+			"red",
+			"yellow",
+			"green",
+			"indigo",
+			"gray",
+			"blue",
+			"bluegray",
+			"$stable",
+			"$bluegray",
+			"lead",
+			".lead"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../../fonts/",
+			"./././fonts/",
+			"././fonts/",
+			"../../../fonts/",
+			"../../fonts/",
+			"dark",
+			"teal",
+			"red",
+			"yellow",
+			"green",
+			"indigo",
+			"teal",
+			"red",
+			"yellow",
+			"green",
+			"indigo",
+			"gray"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bower_components/bootstrap-sass/override_bootstrap_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								559,
+								559
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/tpagan/Documents/Apps/TCStylesApp/config.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TC-Style-NG-UI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 335.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
