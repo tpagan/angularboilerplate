@@ -13,7 +13,7 @@ angular.module('myApp.view1', ['ngRoute'])
 
 }]);
 
-angular.module('ui.bootstrap', ['ngAnimate'])
+angular.module('ui.bootstrap')
 
 .controller('AccordionDemoCtrl', function ($scope) {
   $scope.oneAtATime = true;
