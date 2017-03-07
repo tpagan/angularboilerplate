@@ -43,24 +43,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "bower_components/bootstrap-sass/override_bootstrap_variables.scss",
-			"settings":
-			{
-				"buffer_size": 32046,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/tpagan/Documents/Apps/TCStylesApp/config.rb",
-			"settings":
-			{
-				"buffer_size": 933,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -99,38 +81,44 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/fonts/bootstrap",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/js"
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/angular-bootstrap"
 	],
 	"file_history":
 	[
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/app.js",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/index.html",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/view1/view1.html",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/view1/view1.js",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/bower.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/angular-bootstrap/misc/demo/assets/app.js",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/js/app.js",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/_override_bootstrap_variables.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/config.rb",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/_custom_styles.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/package.json",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/bower.json",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/app.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/app.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/override_bootstrap_variables.scss",
+		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/app.js",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/angular-bootstrap/bower.json",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/custom_styles.scss",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/app.scss",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/.bower.json",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/angular-bootstrap/.bower.json",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/bower.json",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/index.html",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/override_bootstrap_variables.scss",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/_override_bs_variables.scss",
 		"/C/xampp/htdocs/travelclick.github.io/css/sass/_colors.scss",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/colors.scss",
 		"/C/xampp/htdocs/travelclick.github.io/css/sass/_custom.scss",
 		"/C/xampp/htdocs/travelclick.github.io/css/sass/_overrideVariables.scss",
 		"/C/xampp/htdocs/travelclick.github.io/css/sass/app.scss",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/package.json",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/karma.conf.js",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/custom-sass/app.scss",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/custom-sass/_overrideVariables.scss",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/view1/view1.html",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/assets/js/angular-bootstrap/.bower.json",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/eyeglass-exports.js",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/bower_components/bootstrap-sass/README.md",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/css/app.css",
-		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/view1/view1.js",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/app.css",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/components/accordion/accordion.html",
 		"/C/Users/tpagan/Documents/Apps/TCStylesApp/app/components/accordion/accordion.js",
@@ -226,13 +214,7 @@
 		"/C/Users/tpagan/Documents/Sites/TC-StyleGuide/css/theme.css",
 		"/C/Users/tpagan/Documents/Sites/TC-StyleGuide/index.php",
 		"/C/Users/tpagan/Documents/Sites/TC-Style/app/index.html",
-		"/C/Users/tpagan/Documents/Sites/TC-Style/app/view1/view1.js",
-		"/C/Users/tpagan/Documents/Sites/TC-Style/app/accordion/accordion.js",
-		"/C/Users/tpagan/Documents/Sites/TC-Style/app/accordion/accordion.html",
-		"/C/Users/tpagan/Documents/Sites/TC-Style/app/view1/view1.html",
-		"/C/Users/tpagan/Documents/Sites/TC-Ng-UI-Bootstrap/node_modules/angular-ui-bootstrap/bootstrap-gh-pages/index.html",
-		"/C/Users/tpagan/Documents/Axure/HTML/Return-to-Book/start.html",
-		"/C/Users/tpagan/Documents/Sites/TC-Ng-UI-Bootstrap/node_modules/angular-ui-bootstrap/hello.js"
+		"/C/Users/tpagan/Documents/Sites/TC-Style/app/view1/view1.js"
 	],
 	"find":
 	{
@@ -315,65 +297,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "bower_components/bootstrap-sass/override_bootstrap_variables.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 32046,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								559,
-								559
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/tpagan/Documents/Apps/TCStylesApp/config.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 933,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								285,
-								285
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
