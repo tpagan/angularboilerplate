@@ -1,0 +1,729 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+//
+// Global Styles
+// --------------------------------------------------
+
+:focus {
+  outline-style: none ;
+}
+:hover {
+  transition: all .2s ;
+}
+
+// Brand colors
+.default{ color: $brand-default !important; }
+.primary{ color: $brand-primary !important; }
+.secondary{ color: $brand-secondary !important; }
+.accent{ color: $brand-accent; }
+
+.success{ color: $brand-success !important; }
+.info{ color: $brand-info !important; }
+.warning{ color: $brand-warning !important; }
+.danger{ color: $brand-error !important; }
+.error{ color: $brand-error !important; }
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid #f2f2f2; 
+}
+
+//
+// Typography
+// --------------------------------------------------
+
+.lead {
+  font-size: 21px;
+  line-height: 1.72;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  display: block;
+}
+
+h1, .display--1 {
+  font-size: 3.6rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+h2, .display--2 {
+  font-size: 3.0rem;
+  line-height: 1.12;
+  font-weight: 400;
+}
+
+h3, .headline {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 1.24;
+}
+
+h4, .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.34;
+}
+
+h5, .subheading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.44;
+}
+
+h6 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: .125em;
+  line-height: 1.54;
+}
+
+.caption {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.54;
+}
+
+// h2.display--3, .display--3 {
+//   font-size: 4.2rem !important;
+//   font-weight: 400;
+//   line-height: 1;
+// }
+
+// h1.display--4, .display--4 {
+//   font-size: 5.8rem !important;
+//   font-weight: 300;
+//   line-height: 1;
+// }
+
+
+//
+// Iconography
+// --------------------------------------------------
+
+.icon {
+    line-height: inherit;
+    text-align: center;
+    overflow: hidden;
+    margin-right: 5px;
+    top: -1px;
+    position: relative;
+}
+
+.btn-icon {
+    line-height: inherit;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 -4px;
+}
+
+//
+// Global Styles Components
+// --------------------------------------------------
+
+ 
+
+//
+// Tables
+// --------------------------------------------------
+
+
+
+//
+// Buttons
+// --------------------------------------------------
+
+.btn {
+  border-radius: 3rem; /* make the buttons have the "pill" shape */
+}
+
+.btn.rounded {
+  -webkit-border-radius: 3px !important;
+  -moz-border-radius: 3px !important;
+  border-radius: 3px !important;
+}
+
+/* Button Group Overrides */
+
+ // .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) .btn.active 
+ .btn-group > .active{
+    border-radius: 3rem !important;
+    background-color: $brand-accent;
+    color: $light;
+}
+
+.btn-default:hover, .btn-link:hover {
+    border-color: $dark-muted;
+}
+
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+    outline-style: none ;
+    top:1px;
+}
+
+//
+// Forms
+// --------------------------------------------------
+
+.input-group {
+  margin-bottom: 10px !important;
+}
+
+.input-group-addon {
+    text-align: center;
+    background-color: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    border-radius: 3rem;
+}
+
+.form-control {
+   -webkit-box-shadow: none; // iOS <4.3 & Android <4.1
+          box-shadow: none;
+}
+
+.form-control {
+  height: 32px;
+  border-radius: 3rem; //16px * 3 ~ 
+}
+
+//Custom CSS Checkbox and radio button
+
+input[type="checkbox"]:not(:checked),
+input[type="checkbox"]:checked,
+input[type="radio"]:not(:checked),
+input[type="radio"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+
+input[type="checkbox"]:not(:checked) + label,
+input[type="checkbox"]:checked + label,
+input[type="radio"]:not(:checked) + label,
+input[type="radio"]:checked + label{
+  position: relative;
+  padding-left: 1.95em;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+input[type="checkbox"]:not(:checked) + label:before,
+input[type="checkbox"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before,
+input[type="radio"]:checked + label:before {
+    box-sizing: border-box;
+    padding: 0;
+    content: '';
+    position: absolute;
+    left: 0; top: 0;
+    width: 1.25em; 
+    height: 1.25em;
+    border: 1px solid $dark-muted; //the box
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.1);
+}
+
+input[type="radio"]:not(:checked) + label:before,
+input[type="radio"]:checked + label:before{
+   border-radius: 50%; //empty circle
+}
+
+/* checked mark aspect */
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="checkbox"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after,
+input[type="radio"]:checked + label:after  {
+  font-family: metro;
+  content: '\ea10'; //the checkmark 
+  // content: '\2713'; this is the html code for checkmark (fallback);
+  position: absolute;
+  top: .25em;
+  left: .1em;
+  font-size: 1em;
+  line-height: 0.8;
+  color: $link-color;
+  transition: all .2s;
+}
+
+input[type="radio"]:not(:checked) + label:after,
+input[type="radio"]:checked + label:after {
+  font-family: sans-serif;
+  content: '\26AB'; //the circle mark
+  left: 3px;
+
+}
+
+/* checked mark aspect changes */
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+input[type="checkbox"]:checked + label:after,
+input[type="radio"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* disabled checkbox */
+input[type="checkbox"]:disabled:not(:checked) + label:before,
+input[type="checkbox"]:disabled:checked + label:before,
+input[type="radio"]:disabled:not(:checked) + label:before,
+input[type="radio"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color:$dark-muted;
+  background-color: $dark-border;
+  cursor: no-drop;
+}
+input[type="checkbox"]:disabled:checked + label:after,
+input[type="radio"]:disabled:checked + label:after {
+  color: $dark-muted;
+  cursor: no-drop;
+}
+input[type="checkbox"]:disabled + label,
+input[type="radio"]:disabled + label {
+  color: $dark-muted;
+  cursor: no-drop;
+}
+/* accessibility */
+input[type="checkbox"]:checked:focus + label:before,
+input[type="checkbox"]:not(:checked):focus + label:before,
+input[type="radio"]:checked:focus + label:before,
+input[type="radio"]:not(:checked):focus + label:before {
+  border: 1px dotted $link-color;
+}
+
+/* hover style just for feedback */
+label:hover:before {
+  border: 1px solid $link-color;
+}
+
+
+
+
+
+/*==========  Toggle Switches  ==========*/
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    margin-left: -20px;
+    min-width: 58px;
+    min-height: 32px;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-right: 5px;
+
+/* Hide default HTML checkbox */
+input {display:none;}
+
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $dark-border;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 3rem;
+
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 5px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .2s;
+  transition: .2s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: $brand-accent;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px $brand-accent;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(24px);
+  -ms-transform: translateX(24px);
+  transform: translateX(24px);
+}
+
+/*==========  Checkbox Toggle  ==========*/
+.checkbox label .toggle,
+.checkbox-inline .toggle {
+  margin-left: -20px;
+  margin-right: 5px;
+  border-radius: 3rem;
+}
+
+.toggle {
+  position: relative;
+  overflow: hidden;
+}
+.toggle input[type="checkbox"] {
+  display: none;
+}
+.toggle-group {
+  position: absolute;
+  width: 200%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  transition: left 0.35s;
+  -webkit-transition: left 0.35s;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+.toggle.off .toggle-group {
+  left: -100%;
+}
+.toggle-on {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  margin: 0;
+  border: 0;
+  border-radius: 3rem;
+}
+.toggle-off {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  right: 0;
+  margin: 0;
+  border: 0;
+  border-radius: 3rem;
+  background-color: $dark-border !important;
+}
+.toggle-handle {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-width: 0 1px;
+  border-radius: 50%;
+  height: 80%;
+  width: 10%;
+  background: #fff;
+  overflow: hidden;
+  left: -10%;
+  top:10%;
+}
+
+.toggle.off .toggle-handle {
+    left: 10%;
+}
+
+.toggle.btn { min-width: 59px; min-height: 32px; }
+.toggle-on.btn { padding-right: 25%; }
+.toggle-off.btn { padding-left: 25%; }
+
+.toggle.btn-lg { min-width: 79px; min-height: 44px; }
+.toggle-on.btn-lg { padding-right: 30%; }
+.toggle-off.btn-lg { padding-left: 20%; }
+.toggle-handle.btn-lg { left: -12%; }
+.toggle.off .toggle-handle.btn-lg { left: 12%; }
+
+.toggle.btn-sm { min-width: 50px; min-height: 26px;}
+.toggle-on.btn-sm { padding-right: 22%; }
+.toggle-off.btn-sm { padding-left: 22%; }
+.toggle-handle.btn-sm { top: 8.5%; }
+
+.toggle.btn-xs { min-width: 32px; min-height: 20px; }
+.toggle-on.btn-xs { padding-right: 20%; }
+.toggle-off.btn-xs { padding-left: 20%; }
+.toggle-handle.btn-xs { top: -8%; left: -8%; }
+.toggle-off .toggle-handle.btn-xs { left: 8%; }
+
+// select custom chevron 
+.select {
+   position: relative;
+}
+
+.select select {
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+
+.select select::-ms-expand { /* for IE 11 */
+    display: none;
+}
+
+.select .icon{
+    display: inline-block;
+    position: absolute;
+    right: 4px;
+    top: 25%;
+    color: $dark-secondary;
+}
+
+
+//
+// Dropdowns
+// --------------------------------------------------
+ 
+
+//
+// Grid System
+// --------------------------------------------------
+
+//
+// Header
+// --------------------------------------------------
+
+.page-header {
+    padding-bottom: 0;
+    margin: 0;
+    border-bottom: 0;
+}
+
+
+//
+// Navbar
+// --------------------------------------------------
+
+.navbar {
+ border-bottom: 1px solid $dark-border;
+ margin-bottom: 0;
+ height: 65px;
+}
+
+
+.navbar-brand {
+    padding: 8px 15px;
+    font-size: 18px;
+    line-height: 50px;
+    height: 65px;
+    width: 100%;
+    text-indent: 0;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+  float:left;
+}
+
+
+//
+// Navs  (Tabs)
+// --------------------------------------------------
+
+// to make the tabs look like material design 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus { 
+  border: 0 none;
+  border-bottom: 3px solid $brand-primary;
+  background-color: transparent;
+  font-weight: 700;
+}
+// to make the tabs look like material design 
+.nav-tabs.nav-justified > li.active > a, .nav-tabs.nav-justified > li.active > a:hover, .nav-tabs.nav-justified > li.active > a:focus {
+  border: 0 none;
+  border-bottom: 3px solid $brand-primary;
+  background-color: transparent;
+  font-weight: 700;
+}
+
+
+//
+// Pagination
+// --------------------------------------------------
+
+
+//
+// Footer
+// --------------------------------------------------
+
+
+
+//
+// Alerts
+// --------------------------------------------------
+
+.alert {
+  border-radius: 0;
+  padding-left: 45px;
+}
+
+.alert .title {
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left:-30px;
+}
+
+.panel .title {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.panel .title {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+//
+// Accordion
+// --------------------------------------------------
+
+.accordion .panel-heading {
+    position: relative;
+}
+
+.accordion [class^=mif-] {
+    right: 15px;
+    position: absolute;
+    top: 14px;
+}
+
+
+//
+// List group
+// --------------------------------------------------
+
+.sidebar {
+
+  .sidebar-nav {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 0;
+    list-style: none;
+  }
+
+  .list-group-item:hover, .list-group-item:focus {
+    text-decoration: none;
+    color: $light;
+    background-color: $light-border;
+  }
+
+  .list-group-item {
+    color: $light-secondary;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: transparent;
+    border: 1px solid $light-border;
+    border-left: 0;
+    border-right: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    text-transform: capitalize;
+  }
+  .list-group-item.active {
+    color: $light;
+  }
+
+}
+
+.sidebar-switch {
+    bottom: 0;
+    text-indent: 0;
+    top: auto;
+    color: $light;
+}
+
+.sidebar-switch li {
+    color: $light;
+    padding: 10px;
+ 
+}
+
+.sidebar-switch a {
+    color: $link-color !important;
+    text-indent: 0;
+    display: inline-block;
+}
+
+
+
+
+//
+// Panels (Cards)
+// --------------------------------------------------
+
+.panel-title > a, .panel-title > small, .panel-title > .small, .panel-title > small > a, .panel-title > .small > a {
+    color: inherit;
+    width: 100%;
+    display: inline-block;
+}
+
+
+//
+// Thumbnails
+// --------------------------------------------------
+
+
+//
+// Carousel (Slider)
+// --------------------------------------------------
+
+.carousel-control [class^=mif-] {
+  top: 50%;
+  position: absolute;
+  margin-top: -1.75rem;
+}
+
+
+//
+// Helper Classes
+// --------------------------------------------------
+
+.active {
+  font-weight: 700 !important;
+}
+
+
+
+
+
+
+//
+// Media Queries
+// --------------------------------------------------
+
+/*==========  Mobile First Method  ==========*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

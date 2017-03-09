@@ -3,10 +3,10 @@ require 'compass/import-once/activate'
 
 # Set this to the root of your project when deployed:
 http_path = "app/"
-css_dir = "app/css"
-sass_dir = "app/bower_components/bootstrap-sass/assets"
+css_dir = "app/"
+sass_dir = "app/sass"
 images_dir = "app/images"
-javascripts_dir = "app/js"
+javascripts_dir = "app/"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
